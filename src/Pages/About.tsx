@@ -38,8 +38,9 @@ const About: React.FC = () => {
           easily understand their academic performance and meet various
           application requirements. This app is designed with simplicity and
           accuracy in mind, ensuring a seamless experience for users. Thank you
-          for using the app, and I hope it helps you achieve your goals! 😊 For
-          any feedback or inquiries, feel free to reach out at:{" "}
+          for using the app, and I hope it helps you achieve your goals! 😊{" "}
+          <br></br>
+          For any feedback or inquiries, feel free to reach out at:{" "}
           <a
             href="mailto:hi.nabinkdl@gmail.com"
             className="text-indigo-600 underline hover:text-indigo-800"
