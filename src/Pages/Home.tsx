@@ -1,7 +1,7 @@
 // App.tsx
 import React, { useState } from "react";
 import { GraduationCap, Calculator } from "lucide-react";
-import { handleCalculateCgpa } from "./Controller/cgpaController";
+import { handleCalculateCgpa } from "../Controller/cgpaController";
 const Home: React.FC = () => {
   const [cgpa, setCgpa] = useState<string>("");
   const [percentage, setPercentage] = useState<number | null>(null);

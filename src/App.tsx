@@ -1,7 +1,7 @@
-import Home from "./Home";
+import Home from "./Pages/Home";
 import About from "./Pages/About";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-import Fotter from "./Fotter";
+import Fotter from "./components/Fotter";
 
 const Layout: React.FC = () => {
   return (
