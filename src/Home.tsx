@@ -44,8 +44,7 @@ const Home: React.FC = () => {
               htmlFor="cgpa"
               className="block text-sm font-medium text-gray-700 mb-2"
             >
-              Enter your CGPA (2.00 - 4.00), Pokhara University :Undergraduate
-              Level
+              Enter your CGPA (2.00 - 4.00), Pokhara University
             </label>
             <div className="relative">
               <input
