@@ -5,7 +5,7 @@ import Fotter from "./Fotter";
 
 const Layout: React.FC = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* Main Content */}
       <div className="flex-grow">
         <Outlet />
