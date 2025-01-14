@@ -11,7 +11,7 @@ const Fotter: React.FC = () => {
 
   return (
     <div className="flex justify-center bg-white ">
-      <div className="bg-white fixed bottom-0 w-full pb-2  flex justify-center items-center">
+      <div className="bg-white fixed bottom-0 w-full pb-1  flex justify-center items-center">
         <div>
           <a
             href="https://github.com/nabinkdl/CGPA-Conveter"
