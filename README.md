@@ -3,7 +3,7 @@
 
 This project allows users to convert their CGPA (Cumulative Grade Point Average) to a percentage using Pokhara University's CGPA to Percentage scale.
 
-[Live Project](https://cgpa-pu.vercel.app/)
+[Live Project](https://pu-cgpa.nabinkdl.com/)
 
 ## Features
 - Converts CGPA (ranging from 2.00 to 4.00) to percentage.
