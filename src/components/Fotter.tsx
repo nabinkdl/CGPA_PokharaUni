@@ -14,7 +14,7 @@ const Fotter: React.FC = () => {
       <div className="bg-white fixed bottom-0 w-full pb-1  flex justify-center items-center">
         <div>
           <a
-            href="https://github.com/nabinkdl/CGPA-Conveter"
+            href="https://github.com/nabinkdl/CGPA_PokharaUni"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm"
