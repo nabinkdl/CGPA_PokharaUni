@@ -1,4 +1,4 @@
-import { Facebook, Github, Instagram, X } from "lucide-react";
+import { Facebook, Github, Instagram } from "lucide-react";
 
 const About: React.FC = () => {
   return (
