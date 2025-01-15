@@ -1,4 +1,21 @@
-User-agent: *
-Disallow:
+# robots.txt for pu.nabinkdl.com
 
-Sitemap: https://pu-cgpa.nabinkdl.com/sitemap.xml
+# Allow all bots to index the main website
+User-agent: *
+Allow: /
+
+# Disallow access to sensitive or unnecessary directories
+Disallow: /admin/
+Disallow: /src/
+Disallow: /api/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /config/
+
+# Disallow specific file types from being indexed
+Disallow: /*.ts$
+Disallow: /*.tsx$
+Disallow: /*.log$
+
+# Sitemap location
+Sitemap: https://pu.nabinkdl.com/sitemap.xml
