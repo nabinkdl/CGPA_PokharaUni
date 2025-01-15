@@ -1,8 +1,30 @@
 import { Facebook, Github, Instagram } from "lucide-react";
-
+import { Helmet } from "react-helmet";
 const About: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center p-6 ">
+      {/*  */}
+      <Helmet>
+        <title>About | CGPA to Percentage Converter</title>
+        <meta
+          name="description"
+          content="Learn about the CGPA to Percentage Converter app and its developer, Nabin. Discover the purpose and features of this tool, designed for Pokhara University students."
+        />
+        <meta
+          name="keywords"
+          content="About CGPA Converter, Developer Nabin, Pokhara University Tools, CGPA to Percentage"
+        />
+        <meta
+          property="og:title"
+          content="About | CGPA to Percentage Converter"
+        />
+        <meta
+          property="og:description"
+          content="Understand the purpose of the CGPA to Percentage Converter and learn about its developer."
+        />
+      </Helmet>
+
+      {/*  */}
       <div className="bg-white shadow-md rounded-lg p-8 w-full max-w-3xl">
         <h1 className="text-2xl font-bold text-indigo-600 mb-4">
           About This App

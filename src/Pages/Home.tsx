@@ -1,5 +1,6 @@
 // App.tsx
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import { GraduationCap, Calculator } from "lucide-react";
 import { handleCalculateCgpa } from "../Controller/cgpaController";
 const Home: React.FC = () => {
@@ -30,6 +31,27 @@ const Home: React.FC = () => {
 
   return (
     <div className=" min-h-screen  flex items-center justify-center ">
+      {/* SEO */}
+      
+      <Helmet>
+        <title>CGPA to Percentage Calculator | Pokhara University</title>
+        <meta
+          name="description"
+          content="Effortlessly convert your CGPA to percentage with this tool tailored for Pokhara University students."
+        />
+        <meta
+          name="keywords"
+          content="CGPA to Percentage, Pokhara University, Academic Calculator, Student Tools"
+        />
+        <meta property="og:title" content="CGPA to Percentage Calculator" />
+        <meta
+          property="og:description"
+          content="Simplify CGPA to percentage conversion with this easy-to-use tool."
+        />
+        <link rel="canonical" href="https://pu.nabinkdl.com/" />
+      </Helmet>
+
+      {/*  */}
       <div className="bg-white rounded-2xl shadow-xl p-8 w-full max-w-md">
         <div className="flex items-center justify-center mb-6">
           <GraduationCap className="w-10 h-10 text-indigo-600 mr-3" />
