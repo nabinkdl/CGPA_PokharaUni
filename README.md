@@ -39,8 +39,8 @@ This project allows users to convert their CGPA (Cumulative Grade Point Average)
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/cgpa-calculator.git
-cd cgpa-calculator
+git clone https://github.com/nabinkdl/CGPA_PokharaUni
+cd cgpa_PokharaUni
 ```
 
 Install dependencies:
